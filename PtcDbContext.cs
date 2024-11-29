@@ -13,6 +13,8 @@ namespace PTCApp.Models
 
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<Category> Categories { get; set; }
+        public DbSet<UserBase> Users { get; set; }
+        public DbSet<UserClaim> UserClaims { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
