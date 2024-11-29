@@ -1,0 +1,6 @@
+@PTCApp_HostAddress = http://localhost:5103
+
+GET {{PTCApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
